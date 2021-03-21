@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+    header{
+      background: #5c5c0382;
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+    }
+    a{
+      text-decoration: none;
+    }
+    header a{
+      color: white;
+    }
+    header ul{
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    #logo{
+      margin: 0 auto;
+      font-size: 38px;
+    }
+    #menu li{
+      padding: 10px;
+    }
+    #social-links li{
+      padding: 10px;
+    }
+    .services-container{
+      display: flex;
+      justify-content:space-evenly ;
+    }
+    #main{
+      display: flex;
+     
+    }
+    aside{
+      padding: 10px;
+      flex: 0 0 20vw;
+      background: rgb(196 196 196 / 38%);;
+    }
+    aside ul{
+      list-style: none;
+      padding: 0;
+    }
+    aside ul a{
+      color: rgb(255, 0, 153);
+      padding: 10px;
+      display: block;
+      border-bottom: 2px solid black;
+    }
+    aside img{
+      width: 100%;
+    height: 391px;
+    }
+    .service-box{
+      border: 1px solid #eee;
+      flex-basis: 32%;
+      padding: 10px;
+      max-width: 370px;
+      display: flex;
+      margin-bottom: 15px;
+      flex-direction: column;
+    }
+    article{
+      padding: 10px;
+    }
+    .service-box p{
+      margin: 5px 0 10px;
+    }
+    .service-box p{
+      margin: 0 0 10px;
+    }
+    .call-to-action{
+      align-self: flex-start;
+      margin-top: auto;
+      display: block;
+    }
+    .call-to-action a{
+        background: green;
+        color: white;
+        padding: 8px 13px;
+        display: block;
+        border: 1px solid transparent;
+    }
+    .call-to-action a:hover{
+        background: transparent;
+        color: black;
+        border: 2px solid greenyellow;
+        }
+    .service-box img{
+      width: 100%;
+    }
+    footer{
+      background: rgb(35, 38, 32);
+      color: white;
+      text-align: center;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav id="menu">
+      <ul>
+        <li><a href="">home</a></li>
+        <li><a href="">about us</a></li>
+        <li><a href="">contact</a></li>
+      </ul>
+    </nav>
+    <div id="logo">
+      <a href="">Gyanendra Dubey</a>
+    </div>
+    <nav id="social-links">
+      <ul>
+        <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href=""><i class="fa fa-google" aria-hidden="true"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="main">
+    <aside>
+      <ul>
+        <li><a href="">Some Link</a></li>
+        <li><a href="">Some Link</a></li>
+        <li><a href="">Some Link</a></li>
+        <li><a href="">Some Link</a></li>
+        <li><a href="">Some Link</a></li>
+
+      </ul>
+      <img src="https://images.unsplash.com/photo-1498409822413-a67f4a235ea4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDh8fG9mZmljZSUyMHNwYWNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
+    </aside>
+    <article>
+      <h2>Welcome to our Website</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quae iure quisquam temporibus libero pariatur sunt ad dolorum. Suscipit ipsam similique quibusdam molestias magnam!</p>
+      <h2>Our Services</h2>
+      <div class="services-container">
+        <div class="service-box">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1578991624414-276ef23a534f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8b2ZmaWNlJTIwc3BhY2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="service-title">
+          <h3>Wev Designing</h3>
+        </div>
+        <div class="service-desc">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ut hic illum fuga accusantium! Velit iste repellat ut voluptates recusandae ullam culpa doloribus!</p>
+        </div>
+        <div class="call-to-action">
+          <a href="">Read more</a>
+        </div>
+      </div>
+      <div class="service-box">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1497215842964-222b430dc094?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fG9mZmljZSUyMHNwYWNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="service-title">
+          <h3>mobile app development</h3>
+        </div>
+        <div class="service-desc">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ut hic illum fuga accusantium! Velit iste repellat ut voluptates recusandae ullam culpa doloribus!</p>
+        </div>
+        <div class="call-to-action">
+          <a href="">Read more</a>
+        </div>
+      </div>
+      <div class="service-box">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1533750446969-255bbf191920?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzF8fG9mZmljZSUyMHNwYWNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="service-title">
+          <h3>Wev development</h3>
+        </div>
+        <div class="service-desc">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ut hic illum fuga accusantium! Velit iste repellat ut voluptates recusandae ullam culpa doloribus!</p>
+        </div>
+        <div class="call-to-action">
+          <a href="">Read more</a>
+        </div>
+      </div>
+      </div>
+    </article>
+  </div>
+  <footer>
+    <h3>Made by gyanendra</h3>
+  </footer>
+
+</body>
+
+</html>
